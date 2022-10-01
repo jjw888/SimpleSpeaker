@@ -1,7 +1,7 @@
 # SimpleSpeaker
 Strange behaviour with TextField optionals
 
-This app uses tecniques seen on Donny Wals YouTube "Using Core Data in a Modern SwiftUI Application"
+This app uses techniques seen on Donny Wals YouTube "Using Core Data in a Modern SwiftUI Application"
 
 When used on my iPhone 7 Plus running iOS15.7 this app works as expected.
 When loaded onto my iPhone 13 Pro Max running iOS16.0.2,
