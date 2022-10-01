@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3AFDD528E62F5C00D01E25 /* SimpleSpeakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDD428E62F5C00D01E25 /* SimpleSpeakerApp.swift */; };
+		AA3AFDD728E62F5C00D01E25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDD628E62F5C00D01E25 /* ContentView.swift */; };
+		AA3AFDD928E62F5E00D01E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3AFDD828E62F5E00D01E25 /* Assets.xcassets */; };
+		AA3AFDDC28E62F5E00D01E25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3AFDDB28E62F5E00D01E25 /* Preview Assets.xcassets */; };
+		AA3AFDE128E62F5E00D01E25 /* SimpleSpeaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDDF28E62F5E00D01E25 /* SimpleSpeaker.xcdatamodeld */; };
+		AA3AFDE828E6304B00D01E25 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDE728E6304B00D01E25 /* PersistenceController.swift */; };
+		AA3AFDEE28E6313700D01E25 /* Speaker+WrappedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDED28E6313700D01E25 /* Speaker+WrappedProperties.swift */; };
+		AA3AFDF028E6318E00D01E25 /* SpeakerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDEF28E6318E00D01E25 /* SpeakerViewModel.swift */; };
+		AA3AFDF428E6AED300D01E25 /* Speaker+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDF228E6AED300D01E25 /* Speaker+CoreDataClass.swift */; };
+		AA3AFDF528E6AED300D01E25 /* Speaker+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDF328E6AED300D01E25 /* Speaker+CoreDataProperties.swift */; };
+		AA3AFDF728E6B11300D01E25 /* SpeakerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDF628E6B11300D01E25 /* SpeakerListView.swift */; };
+		AA3AFDF928E6B15600D01E25 /* SpeakerEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDF828E6B15600D01E25 /* SpeakerEditView.swift */; };
+		AA3AFDFB28E6B16100D01E25 /* SpeakerSortSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDFA28E6B16100D01E25 /* SpeakerSortSelectionView.swift */; };
+		AA3AFDFD28E6B17D00D01E25 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDFC28E6B17D00D01E25 /* Color.swift */; };
+		AA3AFDFF28E6B21E00D01E25 /* SpeakerDataViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFDFE28E6B21E00D01E25 /* SpeakerDataViews.swift */; };
+		AA3AFE0128E6B4E200D01E25 /* AppStorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFE0028E6B4E200D01E25 /* AppStorageKeys.swift */; };
+		AA3AFE0328E6B5AD00D01E25 /* Extensions+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AFE0228E6B5AD00D01E25 /* Extensions+Functions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA3AFDD128E62F5B00D01E25 /* SimpleSpeaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSpeaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3AFDD428E62F5C00D01E25 /* SimpleSpeakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSpeakerApp.swift; sourceTree = "<group>"; };
+		AA3AFDD628E62F5C00D01E25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA3AFDD828E62F5E00D01E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA3AFDDB28E62F5E00D01E25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA3AFDE028E62F5E00D01E25 /* SimpleSpeaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleSpeaker.xcdatamodel; sourceTree = "<group>"; };
+		AA3AFDE728E6304B00D01E25 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		AA3AFDED28E6313700D01E25 /* Speaker+WrappedProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Speaker+WrappedProperties.swift"; sourceTree = "<group>"; };
+		AA3AFDEF28E6318E00D01E25 /* SpeakerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerViewModel.swift; sourceTree = "<group>"; };
+		AA3AFDF228E6AED300D01E25 /* Speaker+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Speaker+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AA3AFDF328E6AED300D01E25 /* Speaker+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Speaker+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AA3AFDF628E6B11300D01E25 /* SpeakerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerListView.swift; sourceTree = "<group>"; };
+		AA3AFDF828E6B15600D01E25 /* SpeakerEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerEditView.swift; sourceTree = "<group>"; };
+		AA3AFDFA28E6B16100D01E25 /* SpeakerSortSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerSortSelectionView.swift; sourceTree = "<group>"; };
+		AA3AFDFC28E6B17D00D01E25 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		AA3AFDFE28E6B21E00D01E25 /* SpeakerDataViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerDataViews.swift; sourceTree = "<group>"; };
+		AA3AFE0028E6B4E200D01E25 /* AppStorageKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStorageKeys.swift; sourceTree = "<group>"; };
+		AA3AFE0228E6B5AD00D01E25 /* Extensions+Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+Functions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3AFDCE28E62F5B00D01E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3AFDC828E62F5B00D01E25 = {
+			isa = PBXGroup;
+			children = (
+				AA3AFDF228E6AED300D01E25 /* Speaker+CoreDataClass.swift */,
+				AA3AFDF328E6AED300D01E25 /* Speaker+CoreDataProperties.swift */,
+				AA3AFDD328E62F5C00D01E25 /* SimpleSpeaker */,
+				AA3AFDD228E62F5C00D01E25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3AFDD228E62F5C00D01E25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3AFDD128E62F5B00D01E25 /* SimpleSpeaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3AFDD328E62F5C00D01E25 /* SimpleSpeaker */ = {
+			isa = PBXGroup;
+			children = (
+				AA3AFDEC28E630F300D01E25 /* WrappedProperties */,
+				AA3AFDE928E6305400D01E25 /* Data */,
+				AA3AFDEA28E630C500D01E25 /* Models */,
+				AA3AFDEB28E630E400D01E25 /* Views */,
+				AA3AFDD828E62F5E00D01E25 /* Assets.xcassets */,
+				AA3AFDDA28E62F5E00D01E25 /* Preview Content */,
+			);
+			path = SimpleSpeaker;
+			sourceTree = "<group>";
+		};
+		AA3AFDDA28E62F5E00D01E25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA3AFDDB28E62F5E00D01E25 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA3AFDE928E6305400D01E25 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AA3AFDDF28E62F5E00D01E25 /* SimpleSpeaker.xcdatamodeld */,
+				AA3AFDE728E6304B00D01E25 /* PersistenceController.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AA3AFDEA28E630C500D01E25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA3AFDEF28E6318E00D01E25 /* SpeakerViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA3AFDEB28E630E400D01E25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA3AFDD428E62F5C00D01E25 /* SimpleSpeakerApp.swift */,
+				AA3AFDD628E62F5C00D01E25 /* ContentView.swift */,
+				AA3AFDF128E6AE3100D01E25 /* Speaker */,
+				AA3AFE0428E6D9E000D01E25 /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA3AFDEC28E630F300D01E25 /* WrappedProperties */ = {
+			isa = PBXGroup;
+			children = (
+				AA3AFDED28E6313700D01E25 /* Speaker+WrappedProperties.swift */,
+			);
+			path = WrappedProperties;
+			sourceTree = "<group>";
+		};
+		AA3AFDF128E6AE3100D01E25 /* Speaker */ = {
+			isa = PBXGroup;
+			children = (
+				AA3AFDF628E6B11300D01E25 /* SpeakerListView.swift */,
+				AA3AFDF828E6B15600D01E25 /* SpeakerEditView.swift */,
+				AA3AFDFA28E6B16100D01E25 /* SpeakerSortSelectionView.swift */,
+				AA3AFDFE28E6B21E00D01E25 /* SpeakerDataViews.swift */,
+			);
+			path = Speaker;
+			sourceTree = "<group>";
+		};
+		AA3AFE0428E6D9E000D01E25 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AA3AFDFC28E6B17D00D01E25 /* Color.swift */,
+				AA3AFE0028E6B4E200D01E25 /* AppStorageKeys.swift */,
+				AA3AFE0228E6B5AD00D01E25 /* Extensions+Functions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3AFDD028E62F5B00D01E25 /* SimpleSpeaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3AFDE428E62F5E00D01E25 /* Build configuration list for PBXNativeTarget "SimpleSpeaker" */;
+			buildPhases = (
+				AA3AFDCD28E62F5B00D01E25 /* Sources */,
+				AA3AFDCE28E62F5B00D01E25 /* Frameworks */,
+				AA3AFDCF28E62F5B00D01E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleSpeaker;
+			productName = SimpleSpeaker;
+			productReference = AA3AFDD128E62F5B00D01E25 /* SimpleSpeaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA3AFDC928E62F5B00D01E25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AA3AFDD028E62F5B00D01E25 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AA3AFDCC28E62F5B00D01E25 /* Build configuration list for PBXProject "SimpleSpeaker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA3AFDC828E62F5B00D01E25;
+			productRefGroup = AA3AFDD228E62F5C00D01E25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3AFDD028E62F5B00D01E25 /* SimpleSpeaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3AFDCF28E62F5B00D01E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3AFDDC28E62F5E00D01E25 /* Preview Assets.xcassets in Resources */,
+				AA3AFDD928E62F5E00D01E25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3AFDCD28E62F5B00D01E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3AFDD728E62F5C00D01E25 /* ContentView.swift in Sources */,
+				AA3AFDD528E62F5C00D01E25 /* SimpleSpeakerApp.swift in Sources */,
+				AA3AFDF528E6AED300D01E25 /* Speaker+CoreDataProperties.swift in Sources */,
+				AA3AFE0128E6B4E200D01E25 /* AppStorageKeys.swift in Sources */,
+				AA3AFDE128E62F5E00D01E25 /* SimpleSpeaker.xcdatamodeld in Sources */,
+				AA3AFDF428E6AED300D01E25 /* Speaker+CoreDataClass.swift in Sources */,
+				AA3AFDFD28E6B17D00D01E25 /* Color.swift in Sources */,
+				AA3AFDF728E6B11300D01E25 /* SpeakerListView.swift in Sources */,
+				AA3AFDF928E6B15600D01E25 /* SpeakerEditView.swift in Sources */,
+				AA3AFDFF28E6B21E00D01E25 /* SpeakerDataViews.swift in Sources */,
+				AA3AFE0328E6B5AD00D01E25 /* Extensions+Functions.swift in Sources */,
+				AA3AFDEE28E6313700D01E25 /* Speaker+WrappedProperties.swift in Sources */,
+				AA3AFDF028E6318E00D01E25 /* SpeakerViewModel.swift in Sources */,
+				AA3AFDE828E6304B00D01E25 /* PersistenceController.swift in Sources */,
+				AA3AFDFB28E6B16100D01E25 /* SpeakerSortSelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA3AFDE228E62F5E00D01E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA3AFDE328E62F5E00D01E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA3AFDE528E62F5E00D01E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleSpeaker/Preview Content\"";
+				DEVELOPMENT_TEAM = 24KFV5G5VL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyTrainingTracker.com.SimpleSpeaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA3AFDE628E62F5E00D01E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleSpeaker/Preview Content\"";
+				DEVELOPMENT_TEAM = 24KFV5G5VL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MyTrainingTracker.com.SimpleSpeaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3AFDCC28E62F5B00D01E25 /* Build configuration list for PBXProject "SimpleSpeaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3AFDE228E62F5E00D01E25 /* Debug */,
+				AA3AFDE328E62F5E00D01E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3AFDE428E62F5E00D01E25 /* Build configuration list for PBXNativeTarget "SimpleSpeaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3AFDE528E62F5E00D01E25 /* Debug */,
+				AA3AFDE628E62F5E00D01E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA3AFDDF28E62F5E00D01E25 /* SimpleSpeaker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA3AFDE028E62F5E00D01E25 /* SimpleSpeaker.xcdatamodel */,
+			);
+			currentVersion = AA3AFDE028E62F5E00D01E25 /* SimpleSpeaker.xcdatamodel */;
+			path = SimpleSpeaker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA3AFDC928E62F5B00D01E25 /* Project object */;
+}
