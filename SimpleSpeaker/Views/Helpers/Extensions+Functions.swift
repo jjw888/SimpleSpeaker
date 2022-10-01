@@ -17,29 +17,6 @@ extension Binding {
     }
 }
 
-// from www
-//extension Binding {
-//    func withDefaultValue<T>(defaultValue: T) -> Binding<T> where Value == Optional<T> {
-//        let safeValue: T
-//
-//        if let unwrappedValue: T = self.wrappedValue { safeValue = unwrappedValue }
-//        else { safeValue = defaultValue }
-//
-//        return SwiftUI.Binding.init(
-//            get: { () -> T in return safeValue },
-//            set: { (newValue) in self.wrappedValue = newValue })
-//    }
-
-//extension Binding {
-//    func withDefaultValue<T>(defaultValue: T) -> Binding<T> where Value == Optional<T> {
-//        Binding<T>(
-//            get: { self.wrappedValue ?? defaultValue },
-//            set: { newValue in self.wrappedValue = newValue }
-////            set: { self.wrappedValue = $0 }
-//        )
-//    }
-//}
-
 extension Optional where Wrapped == String {
     var _bound: String? {
         get { return self }

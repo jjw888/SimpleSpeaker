@@ -18,8 +18,6 @@ struct SpeakerListView: View {
     @State private var mode: EditMode = .inactive
     @State private var isSortActive = false
     
-//    @State private var selectedSpeaker = ""
-    
     let color: Color
     
     @FetchRequest(

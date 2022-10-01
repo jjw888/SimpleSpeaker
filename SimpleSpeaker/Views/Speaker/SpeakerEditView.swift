@@ -49,9 +49,7 @@ extension SpeakerEditView {
         HStack {
             Text("Name:")
             Spacer()
-            TextField("Speaker name",
-//                text: $speakerViewModel.speaker.speakerName.withDefaultValue(""))
-                  text: $draftSpeakerName.withDefaultValue(""))
+            TextField("Speaker name", text: $draftSpeakerName.withDefaultValue(""))
                 .textFieldStyle(RoundedBorderTextFieldStyle())
         }
     }

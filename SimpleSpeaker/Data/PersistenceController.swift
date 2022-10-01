@@ -43,23 +43,15 @@ struct PersistenceController {
     }
 
     func persist(_ object: NSManagedObject) {
-//        try! object.managedObjectContext?.save()
-//        if let parent = object.managedObjectContext?.parent {
-//            try! parent.save()
-//        }
-        
         do {
             try object.managedObjectContext?.save()
-//            print("child saved to parent context")
         } catch {
             print("error saving speakerGroup in child context to parent: \(error.localizedDescription)")
         }
         
         if let parent = object.managedObjectContext?.parent {
-//            print("parent exists")
             do {
                 try parent.save()
-//                print("saved to persistent store")
             } catch {
                 print("error saving speakerGroup to persistent store: \(error.localizedDescription)")
             }
